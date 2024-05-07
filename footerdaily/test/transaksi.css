@@ -1,0 +1,508 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #181818;
+    height: 130vh;
+
+}
+
+
+.wrapper {   
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 65px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row ;
+    font-size: 1.4em;
+    padding: 15px;
+    text-transform: capitalize;
+    width: 30%;
+}
+
+.Firstname {
+    color: white;
+    font-weight:600;
+    margin-left: 15px;
+
+
+}
+
+.Lastname {
+    color: #DC143C;
+    font-weight: 600;
+    padding-left: 6px;
+   
+}
+
+.Kartu-debit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    margin: 15px;
+    width: 40%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.navigation {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 15px;
+       
+}
+
+
+.navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation > li > a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding:25px
+}
+
+.navigation > li > a:hover{
+    background-color: #DC143C;
+    transition: all .4s ease-in-out;
+}
+
+.f-container {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-line {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(255, 255, 255 );
+}
+
+.search-area{
+    width: 75%;
+    height: 80px;
+    display: flex;
+    flex-direction:row;
+    align-items: right;
+    justify-content: center;
+    
+    
+}
+
+.search-form{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: right;
+}
+
+.search-bar {
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    background: white;
+    border-radius: 10px;
+    width:75%;
+    height: 40px;
+    outline: 0; 
+    border-width: 0 0 2px;
+    border-color: rgb(255, 255, 255, 0.8);
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right:5px;
+    transition: all .4s ease-in-out;
+}
+
+.submit-search{
+    width: 60px;
+    height: 60px;
+    background-color: #282828;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image-search {
+
+}
+
+
+.mini-profile-area {
+    width: 25%;
+    height: 80px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.keranjang {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #282828;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.keranjang-image {
+    width:25px;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #282828;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.profile-image {
+    width: 60px;
+    border-radius: 100%;
+    
+}
+
+.username {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.content {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header{
+    width: 100%;
+    height: 100%;
+    background-color: #213A47;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+
+
+} 
+
+.content-first {
+    width: 40%;
+    height: 90%;
+    border-radius: 20px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: right;
+}
+
+.no-pesanan {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    justify-content: center;
+    color: #D1D0D0;
+}
+
+.pesanan {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.nomer {    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+
+}
+
+.kartu-kredit-content{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+.kartu-debit-input{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.kartu-debit-input-title{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: center;
+    color: white;
+}
+
+.kartu-debit-container {
+    width: 100%;
+    height: 65px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.kartu-debit-inputan{
+
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-color: #213A47;
+    border: 2px 2px 2px #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.kartu-debit-input-1{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.masa-berlaku {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.title-kartu-inputan {
+    
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kartu-debit-inputan-1 {
+    width:80%;
+    color: white;
+    height: 40px;
+    background-color: #213A47;
+    border: 2px 2px 2px #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+
+}
+
+
+
+
+
+.content-second {
+    width: 40%;
+    height: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: left;
+}
+
+.rincian-belanja-title {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rincian-belanja-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.rincian-belanja {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.rincian-1{
+    color: white;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    justify-content: left;
+}
+
+.rincian-2{
+    color: white;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    flex-direction:row;
+    align-items: right;
+    justify-content: right;
+}
+
+.rincian-3{
+    color: #0D9F00;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    flex-direction:row;
+    align-items: right;
+    justify-content: right;
+}
+
+.total-belanja-container {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: left;
+}
+
+.bayar{
+    padding: 10px ;
+    margin-top:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #111F26;
+    font-weight: bold;
+    width: 390px;
+    height: 56px;
+    border:none;
+}

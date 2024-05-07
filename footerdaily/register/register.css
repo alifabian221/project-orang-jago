@@ -1,0 +1,265 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #181818;
+    height: 130vh;
+    background-image: url('../login_regis_image/login-background.png'); /* Ganti 'gambar.jpg' dengan lokasi dan nama file gambar Anda */
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center; /* Mengatur perataan horizontal ke tengah */
+    align-items: center; /* Mengatur perataan vertikal ke tengah */
+    width: 100%;
+    height: 12vh;
+    padding-bottom: 25px;
+}
+
+.title-name {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+
+
+}
+
+.content {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Mengatur perataan horizontal ke tengah */
+    align-items: center; /* Mengatur perataan vertikal ke tengah */
+}
+
+.signup {
+    width: 660px;
+    height: 880px;
+    padding: 20px;
+    background-color: #282828;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Membuat bayangan hitam ke arah bawah */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Mengatur perataan horizontal ke tengah */
+    align-items: center; /* Mengatur perataan vertikal ke tengah */
+
+}
+
+.signup-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Mengatur perataan horizontal ke tengah */
+    align-items: center; /* Mengatur perataan vertikal ke tengah */
+    width:510px;
+    height:610px;
+    margin-bottom:0px;
+    margin-top: 0px;
+
+
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Mengatur perataan vertikal ke tengah */
+    justify-content: center;
+    width: 100%;
+}
+
+.signup-title{
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 25px;
+
+}
+
+.warning {
+    color: #FF0000;
+}
+
+.label{
+    text-align: left;
+    width: 100%;
+    font-size:20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.input-text{
+    font-size: 16px;
+    color:rgb(255, 255, 255, 0.8);
+    background: none;
+    width: 100%;
+    height: 36px;
+    outline: 0; 
+    border-width: 0 0 2px;
+    border-color: rgb(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right:5px;
+    transition: all .4s ease-in-out;
+}
+
+.input-text:focus{
+    font-size: 16px;
+    color:rgb(255, 255, 255, 1);
+    font-weight: 10px;
+    background: none;
+    outline: 0; 
+    border-width: 0 0 3px;
+    border-color: rgb(255, 255, 255,);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right:5px;
+    transition: all .4s ease-in-out;
+}
+
+.signup-button{
+    padding: 10px ;
+    margin-top:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(253, 97%, 75%);
+    font-weight: bold;
+    width: 100%;
+    height: 56px;
+    border:none;
+
+}
+
+.lupa-password{
+    width: 100%;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #00C2FF;
+}
+.or {
+    width:80%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.or1{
+    color: white;
+    text-align: center;
+    width: 40%;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.4);
+    
+}
+
+.or2{
+    width: 20%;
+    font-size: 16px;
+    color:rgb(255, 255, 255,0.5);
+    text-align: center;
+}
+
+.another-login{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.another1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.another2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 48px;
+    background-color: #1F1F1F;
+    padding:5px;
+}
+
+.a-logo{
+    width: 30px;
+    padding: 5px;
+}
+
+.a-name{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding:5px;
+}
+
+.signup-link-line{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-link{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.signup-link-1{
+    color :rgb(255, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.warning-line {
+    width: 100%;
+}
+
+ul {
+    color: #FF0000;
+}
+
+.ul-error {
+    color: red;
+}
+
+.error {
+    color: white;
+    font: 18px;
+    width: 100%;
+}
+
+
+
